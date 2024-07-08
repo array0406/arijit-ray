@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arijit Ray's Personal Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #1ABC9C;
+        }
+        .header-section {
+            display: flex;
+            align-items: center;
+            padding: 2em 0;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+        .header-section .image {
+            margin-left: 2em;
+            margin-right: 3em;
+        }
+        .header-section .image img {
+            border-radius: 50%;
+            border: 5px solid #2C3E50;
+            width: 200px;
+            height: 200px;
+        }
+        .header-section h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #2C3E50;
+        }
+        .header-section p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        .section {
+            display: none;
+            padding: 2em;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .container .content {
+            max-width: 600px;
+        }
+        .highlight {
+            color: white;
+            font-weight: bold;
+            background: teal;
+        }
+        .highlight2 {
+            color: white;
+            font-weight: bold;
+            background: black;
+        }
+        .highlight3 {
+            color: teal;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('professional-journey')">Professional Journey</a></li>
+                <li><a href="#" onclick="showSection('thought-leadership')">Thought Leadership</a></li>
+                <li><a href="#" onclick="showSection('about-me')">About Me</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="header-section">
+        <div class="image">
+            <img src="about_me_resized.jpg" alt="Arijit Ray's Picture">
+        </div>
+        <div>
+            <h1>Arijit Ray</h1>
+            <p>Innovating Data and Analytics practitioner with 13+ years of experience driving strategic outcomes in Pharma Life Sciences industry. Expert in Commercial enablement and key areas including patient identification, patient journey management, provider segmentation, market landscape assessments, specialty pharmacy and distributor operations and reporting, omni-channel planning and optimization, product launch, and go to market / marketing capabilities including field alignment, incentive compensation, close-loop / digital marketing and next best action. </p>
+
+<p>Proven track record in leading large-scale projects and cross-functional teams to deliver impactful business solutions. </p>
+
+<p>Ready to lead with vision and precision in a dynamic role.</p>
+        </div>
+    </section>
+    <section id="about-me" class="section">
+        <h1>Some of the activities I enjoy most, beside work</h1>
+        <p>Playing with my 3 year old and watching her giggle at my made-up stories during bedtime, going on drives or late night TV with my wife, triathlon training and racing, Vedantic philosophy, contemplations on life and death, contributing to youth education and empowerment... these are just a few activities that make me feel alive every single day. </p>
+        <h1>What I am looking forward to the most right now</h1>
+        <p>Right now I am actively looking for my next role. I am looking forward to this new beginning, considering I was at my previous job for almost a decade. Tremendously excited about bringing all my expertise and experience from all these years, to the next role and contribute to my new teams. </p>
+
+<p>I am also looking forward to Ironman 70.3 New York in late-September, where I will get a chance to improve upon my performance last year. </p>
+    </section>
+    
+<section id="professional-journey" class="section">
+    <h2>Professional Journey</h2>
+    <ul style="list-style-type: none; padding-left: 0;">
+        <li style="margin-bottom: 20px;">
+            <span class="highlight">2011:</span> I began my professional journey with then largest, third-party, pure-play Analytics unicorn <strong>Mu Sigma</strong>, in <strong>Bangalore, India</strong>.
+            <ul style="margin-bottom: 10px; margin-top: 7px;">
+                <li style="margin-bottom: 7px;">My first client was a <strong>global pharmaceutical major</strong> based out of NJ, with an impressive roster of commercial products across <strong>cardiovascular, diabetes-management</strong>, and other therapeutic areas.</li>
+                <li style="margin-bottom: 7px;">I was part of the Customer Relationship Management (CRM) team that focused on <strong>statistical design, implementation and reporting/measurement of experimental marketing campaigns</strong>, with the goal of finding optimal mix between in-person and non-personal promotions.</li>
+                <li style="margin-bottom: 7px;">In the <strong>18 months</strong> with this client, I had helped the blockbuster diabetes brand <strong>improve sales</strong> with significant <strong>optimization of costs</strong> and cross-channel promotional touchpoints, designed and <strong>realized ROI</strong> from several non-personal marketing experiments, established data and analytics framework to <strong>operationalize close-loop marketing</strong> (CLM) and taken the client further along on their <strong>omni-channel maturity</strong>.</li>
+            </ul>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <span class="highlight">2013:</span> I transitioned to Mu Sigma's biggest client, <strong>Microsoft</strong>.
+            <ul style="margin-bottom: 10px; margin-top: 7px;">
+                <li style="margin-bottom: 7px;">Contributed significantly to the <strong>Windows Azure business</strong> by optimizing brand and marketing reporting systems, identifying B2C and B2B consumer segments and setting benchmarks for Customer Lifetime Value based on cloud utilization, exploration and adoption data.</li>
+                <li style="margin-bottom: 7px;">Developed innovative, data-driven strategies to help Microsoft gain a competitive edge as the organization was charting its business strategy around market needs for <strong>SaaS, PaaS and IaaS</strong>.</li>
+                <li style="margin-bottom: 7px;">I was <strong>recognized</strong> for my ability to connect data insights with impactful business interventions, leading to my transfer to Seattle.</li>
+            </ul>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <span class="highlight">2014:</span> I moved to <strong>Seattle</strong>, to work in-person with my clients in the <strong>Windows App Store business</strong>.
+            <ul style="margin-bottom: 10px; margin-top: 7px;">
+                <li style="margin-bottom: 7px;">Contributed significantly to Windows App Store ecosystem <strong>monetization goals</strong> and played key role in managing development of <strong>self-serve reporting and insights platform</strong>, liaising between multiple vendor companies to achieve target milestones.</li>
+            </ul>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <span class="highlight">2015:</span> I joined <strong>PwC</strong> in <strong>New York City</strong> to build and mature its Pharma Life Sciences <strong>Commercial Analytics practice</strong>.
+            <ul style="margin-bottom: 10px; margin-top: 7px;">
+                <li style="margin-bottom: 7px;">Played a pivotal role in delivering diverse projects for clients ranging from <strong>niche biopharma</strong> companies to <strong>large, multi-national</strong> pharmaceutical corporations.</li>
+                <li style="margin-bottom: 7px;">Managed clients, projects and teams on both large-scale, multi-year engagements and strategic, short-term projects, demonstrating not only <strong>cross-spectrum understanding</strong> of the pharma life sciences business but also <strong>project and people management</strong> leadership.</li>
+                <li style="margin-bottom: 7px;">Worked on countless bespoke, analytics and strategic projects ranging from few weeks to several months, which collectively covered a significant portion of the <strong>Pre-launch</strong> and <strong>Commercial stages</strong> of a drug's lifecycle. These projects have allowed me to develop a comprehensive and well-rounded understanding of the total pharma ecosystem.</li>
+                <li style="margin-bottom: 7px;">During this time, I have also actively seeked opportunities at non-pharma sector projects, to learn from and contribute inter-disciplinary and inter-industry perspectives to my own work and that of my colleagues and peers.</li>
+                <li style="margin-bottom: 7px;">I have also contributed my time to <strong>Pro Bono Consulting</strong> work. <strong>Youth</strong> and <strong>education</strong> are two causes close to my heart and I have worked very closely with a couple non-profits - CodeNation and Chicago HFS Scholars - to create strategic roadmaps and address their most pressing, immediate problems.</li>
+            </ul>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <h2>Limited list of client impact in Healthcare </h2>
+            <ul style="margin-bottom: 10px; margin-top: 7px;">
+                <li style="margin-bottom: 7px;">Successful <strong>redesign and re-launch of a Patient Assistance (Co-pay) Card</strong> which led to <strong>improved patient adherence</strong> on therapy and <strong>lower abandonment</strong> of scripts and refills. The undertaking required advanced statistical analysis of population claims data, medical insurance survey insights for development of patient utilization curves.</li>
+                <li style="margin-bottom: 7px;">Design and implementation of effective product <strong>Go-to-Market (GTM) strategy</strong> in the institutional provider and retail channels, for a <strong>seasonal vaccine</strong>, focusing on market sizing, prior year utilization (claims) data, first-party direct sales, provider segmentation and registries, and population estimates.</li>
+                <li style="margin-bottom: 7px;">Executed <strong>several indication-expansion launches</strong> for a <strong>multi-indication oral Oncology brand</strong>, managing Sales Force sizing and placements, Incentive Compensation planning and management, Co-promotion goals and measurements, indication-sequencing for Detailing purposes, etc.</li>
+                <li style="margin-bottom: 7px;">Helped a <strong>lifestyle-disease</strong> brand <strong>find the next set of patients</strong> before they were diagnosed - enabling <strong>micro-segmentation and targeting</strong> efforts through innovative POV that leverages third-party consumer data, national health survey data and advanced statistics to estimate likelihood of disease occurance.</li>
+                <li style="margin-bottom: 7px;">Led a significant <strong>mission-critical transformation</strong> for a multi-national, mid-sized pharma company with brands across three major therapeutic areas, building and managing analytics capabilities from ground up to support regular reporting and strategic ad hoc analyses.</li>
+                <li style="margin-bottom: 7px;">Led <strong>contract evaluation</strong> and finalization efforts on client's behalf to <strong>onboard eight national and regional Specialty Pharmacies</strong> for Oncology product, to expand reach to patients, and streamlining contracting and data reporting requirements.</li>
+                <li style="margin-bottom: 7px;">Owned vendor management for a client undergoing a significant technology transition, moving from legacy IQVIA to Veeva Opendata for HCO and HCP information and insights.</li>
+            </ul>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <h2>Key contributions in other sectors </h2>
+            <ul style="margin-bottom: 10px; margin-top: 7px;">
+                <li style="margin-bottom: 7px;">Streamlined <stong>prospect evaluation process</strong> by building a repeatable, advanced franchise lead (inbound and outbound) <strong>prediction model for an insurance company</strong> in Florida, allowing sales support to focus on developing better leads and significantly optimizing costs.</li>
+                <li style="margin-bottom: 7px;">Established robust <strong>data governance</strong> practices at a <strong>major Property & Casualty insurance</strong> provider, improving global data integrity and laying the foundation for advanced reporting for North America and International markets.</li>
+                <li style="margin-bottom: 7px;">Supported a <strong>community-focused credit union</strong> in PA state, drive targeted growth initiatives by identifying <strong>top consumer</strong> and <strong>top business segments</strong>, by performing outside-in and inside-out market assessments, levaraging internal member data and external, third-party consumer datasets.</li>
+            </ul>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <h2>Headlines on what I have learnt</h2>
+            <ul style="margin-bottom: 10px; margin-top: 7px;">
+                <span class="highlight3">
+                <li style="margin-bottom: 7px;">Early and continued exposure to diverse business-driven, strategic technology problems have made me a well-rounded, adaptive, analytics and decision sciences professional with a solid understanding of various functional areas in Pharma (and other industries), their needs and priorities. <strong>I have inculcated the practice of starting with the underlying needs of the customers (internal, or external), which are not always recognized or communicated early</strong>.</li>
+                <li style="margin-bottom: 7px;">I have a nuanced appreciation for the complex and continuously evolving nature of the pharma life sciences business and the data challenges it entails. <strong>Traditional approaches and datasets will no longer suffice - a more connected, digital life will continue to change how patients and providers track and report health events and outcomes</strong>. Pharma companies need to be at the forefront of this evolution, backed by advances in the fields of data and analytics (including ML and AI).</li>
+                <li style="margin-bottom: 7px;">Through my professional exposure and personal experiences, <strong>I have developed a deep empathy for patients and their caregivers, and bring a 360-degree perspective</strong> to business problems and their solutions.</li></span>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+    <section id="thought-leadership" class="section">
+        <h2>Thought Leadership</h2>
+        <p>To be published...</p>
+    </section>
+    <section id="contact" class="section">
+        
+<h2>Contact</h2>
+<ul>
+    <li>Email: arijitray01@gmail.com</li>
+    <li>LinkedIn: <a href="https://linkedin.com/in/rayarijit" target="_blank">linkedin.com/in/rayarijit</a></li>
+</ul>
+
+    </section>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+        // Show the About Me section by default
+        document.getElementById('professional-journey').style.display = 'block';
+    </script>
+</body>
+</html>
